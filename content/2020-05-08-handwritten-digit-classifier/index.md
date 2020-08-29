@@ -1,8 +1,8 @@
 ---
-title: Why I migrated my website from wordpress to gatsby? (gatsby vs wordpress)
+title: Handwritten Digit recognizer
 tags: [ javascript, gatsby, typescript ]
-date: 2020-04-08T05:25:44.226Z
-path: projects/why-i-migrated-my-website-from-wordpress-to-gatsby
+date: 2020-05-08
+path: projects/handwritten-digit-classifier
 cover: ./gatsby-wordpress.jpg
 excerpt: While building a CMS for blogging, worpdress is the most commonly used platform. Gatsby has also topped the list recently. This article talk which one to go for and why I shifted from wordpress to gatsby. Is gatsby better than wordpress is the question I would be answering.  
 ---

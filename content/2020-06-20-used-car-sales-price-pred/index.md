@@ -1,9 +1,9 @@
 ---
-title: "Hello World - Rolwin's first blog 😇"
-path: projects/hello-world-rolwins-first-blog
+title: "Used car sale price Predction"
+path: projects/used-sales-car-price-prediction
 tags: []
 cover: ./rolwin.jpg
-date: 2020-12-01
+date: 2020-06-20
 excerpt: Blogging and writing about tech stacks is always been my thing. I like to experiment with different technologies and write my views on them. Web technologies has always been my passion. Check my blog for codebits on various web technologies.
 ---
 

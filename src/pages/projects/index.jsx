@@ -47,7 +47,7 @@ Projects.propTypes = {
 export const query = graphql`
   {
     allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: ASC }
+      sort: { fields: [frontmatter___date], order: DESC }
       filter: { fileAbsolutePath: { regex: "/index.md$/" } }
     ) {
       edges {

@@ -19,7 +19,7 @@ module.exports = [
       name: 'Debasish Dutta',
       short_name: 'ddmasterdon',
       start_url: '/',
-      background_color: '#304CFD',
+      background_color: '#c4e7f7',
       theme_color: '#c4e7f7',
       display: 'standalone',
       icon: 'src/images/icon.png', // This path is relative to the root of the site.

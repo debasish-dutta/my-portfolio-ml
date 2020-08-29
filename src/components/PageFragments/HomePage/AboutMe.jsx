@@ -5,19 +5,13 @@ import { stripTags, domHtml } from '../../../utils/stripTags';
 import SEO from '../../Seo';
 
 const pageText = {
-  paraOne: `Hello !! My name is Rolwin Reevan Monteiro. I'm a full stack web developer who is
-    passionate about various web technologies. I like to experiment with different web
-    technologies. I have an experience of nearly 3 years working with LAMP stack, MERN stack
-    and ELK stack. Building fancy UI's just like this one that your seeing 😅 and writing blogs about tech stacks
-    is what Rolwin loves to do. Check my blog which I update every week for some Javascript and some 
-    cool notes on web technologies.`,
-  paraTwo: `Currently I work mostly with Javascript technologies like ReactJS and NodeJS. I also
-    have hands on experience working with cloud infrastructures <b>AWS/GCP</b> and have deployed applications
-    keeping scalability in mind. Docker, Kubernetes, Jenkins, SonarQube are some of the cool
-    tools I use for <b>CI/ CD</b>. I'm always a learner and a self taught programmer.`,
+  paraOne: `Ohaiyoo !! This is Debasish Dutta. I'm a Data Scientist and Machine Learning Enthusiast, 
+  well versed in programming and love to experiment with different languages and ML libaries. I have been working with <b>Machine learning</b> and <b>Deep learning</b> since 2019. I have built many different <b> ML, DL & TL</b> models and have a well-to-do experience in data analytics and visualization too.`,
+  paraTwo: `Along with <b>Python</b> as my choice of programming language, I also have the working knowledge of <b>C</b> & <b>C++</b> as well as <b>Javascript</b> and database languages like <b>SQL</b> and <b>NoSQL</b>. 
+  With some hands-on experience working with web technologies like <b>Flask & React-Gatsby</b> and cloud technologies like <b>AWS/Azure</b> , furthermore I have deployed applications in Heroku and AWS. On going my passion, I have been occasionally contributing my experiences and skills to the open-source community and writting blogs. I'm a keen learner and a self-taught programmer with a tremendous love for tech.`,
 };
 const AboutMe = () => {
-  const description = `${pageText.paraOne} ${stripTags(pageText.paraTwo)}`;
+  const description = `${stripTags(pageText.paraOne)} ${stripTags(pageText.paraTwo)}`;
   return (
     <>
       <div>
@@ -25,12 +19,10 @@ const AboutMe = () => {
           title="About"
           description={description}
           path=""
-          keywords={['Rolwin', 'Reevan', 'Monteiro', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby']}
+          keywords={['Debasish', 'Dutta', 'Data Scientist', 'Machine Learning', 'ReactJS', 'Tensorflow', 'Gatsby']}
         />
         <h1 className="titleSeparate">About Me</h1>
-        <p>
-          {pageText.paraOne}
-        </p>
+        <p dangerouslySetInnerHTML={domHtml(pageText.paraOne)} />
         <p dangerouslySetInnerHTML={domHtml(pageText.paraTwo)} />
       </div>
       <Row gutter={[20, 20]}>

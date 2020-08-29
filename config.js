@@ -9,6 +9,7 @@ module.exports = {
   pages: {
     home: '/',
     contact: 'contact',
+    skills: 'skills',
     resume: 'resume',
     projects: 'projects',
   },
