@@ -3,7 +3,7 @@ import { Layout } from 'antd';
 import Header from '../components/PageLayout/Header';
 
 import SidebarWrapper from '../components/PageLayout/Sidebar';
-import AboutMe from '../components/PageFragments/HomePage/AboutMe';
+import AboutTiles from '../components/PageFragments/HomePage/AboutTiles';
 // import Skills from '../components/PageFragments/HomePage/SkillProgress';
 
 export default () => (
@@ -12,7 +12,7 @@ export default () => (
       <Header />
       <SidebarWrapper>
         <>
-          <AboutMe />
+          <AboutTiles />
           {/* <Skills /> */}
         </>
       </SidebarWrapper>
