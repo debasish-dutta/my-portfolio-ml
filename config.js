@@ -10,6 +10,7 @@ module.exports = {
     home: '/',
     contact: 'contact',
     skills: 'skills',
+    milestones: 'milestones',
     resume: 'resume',
     projects: 'projects',
   },

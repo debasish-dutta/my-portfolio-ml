@@ -3,8 +3,9 @@ import { Layout } from 'antd';
 import Header from '../../components/PageLayout/Header';
 import SidebarWrapper from '../../components/PageLayout/Sidebar';
 import SEO from '../../components/Seo';
-import Skill from '../../components/PageFragments/HomePage/SkillProgress';
-import Skill2 from '../../components/PageFragments/HomePage/SkillProgress-2';
+import TopSkill from '../../components/PageFragments/Skills/TopSkills';
+import Skill from '../../components/PageFragments/Skills/SkillProgress';
+import Skill2 from '../../components/PageFragments/Skills/SkillProgress-2';
 
 const Skills = () => (
   <Layout className="outerPadding">
@@ -19,6 +20,8 @@ const Skills = () => (
         <div className="marginTopTitle">
           <h1 className="titleSeparate">Skills</h1>
         </div>
+        <TopSkill />
+        <br />
         <Skill />
         <br />
         <Skill2 />
