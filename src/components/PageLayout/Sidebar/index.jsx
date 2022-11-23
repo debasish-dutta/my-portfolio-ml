@@ -25,7 +25,7 @@ const DomContent = () => (
           <span>Dutta</span>
         </h2>
       </div>
-      <div className={`${style.badge} ${style.badgeGray}`}>Budding Data Scientist</div>
+      <div className={`${style.badge} ${style.badgeBlue} ${style.badgeMain}`}>Pursuing Core CS Research</div>
       <div className="centerAlign box">
         <a href={facebook} target="_blank" label="button" rel="noopener noreferrer"><img alt="ddmasterdon | Facebook" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" style={{ marginLeft: '10px' }} /></a>
         <a href={twitter} target="_blank" label="button" rel="noopener noreferrer"><img alt="ddmasterdon | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" style={{ marginLeft: '10px' }} /></a>

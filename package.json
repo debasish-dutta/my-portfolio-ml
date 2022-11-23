@@ -3,7 +3,7 @@
   "private": true,
   "description": "portfolio site created using gatsby and antd",
   "homepage": "https://debasish0dutta.github.io/build/",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
